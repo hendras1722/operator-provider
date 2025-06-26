@@ -25,9 +25,13 @@ GET /v1/operator/{nomor_telepon}
 
 ```json
 {
-  "operator": {
+  "message": "success",
+  "data": {
+    "default_product_id": 2227,
+    "image": "/telkomsel.png",
     "name": "Telkomsel",
-    "image": "/telkomsel"
+    "description": "",
+    "__typename": "OperatorAttributes"
   }
 }
 ```
