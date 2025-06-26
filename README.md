@@ -27,7 +27,6 @@ GET /v1/operator/{nomor_telepon}
 {
   "operator": {
     "name": "Telkomsel",
-    "prefix": ["0811", "0812", "..."],
     "image": "/telkomsel"
   }
 }
