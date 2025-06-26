@@ -8,6 +8,7 @@ function Operator(req, res) {
       (item) => item.filter((item) => req.params.id.includes(item)).length > 0
     )
     const result = data[findNumber]
+    delete data[findNumber].prefix
     return res.status(200).json({
       message: 'success',
       data: result,
