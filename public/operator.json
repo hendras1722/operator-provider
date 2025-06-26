@@ -120,7 +120,7 @@
           "default_product_id": 11028,
           "image": "/byu.png",
           "name": "Telkomsel - by.U",
-          "prefix": ["085155", "085157", "085156", "085154"],
+          "prefix": ["085155", "085157", "085156", "085154", "085158"],
           "description": "",
           "__typename": "OperatorAttributes"
         },
