@@ -18,6 +18,9 @@ app.use(function (req, res, next) {
 })
 
 app.use('/v1', Operator)
+app.use('/', () => {
+  res.send('PONG')
+})
 
 if (require.main === module) {
   app.listen(port, () => {
