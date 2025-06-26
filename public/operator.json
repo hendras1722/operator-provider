@@ -1,0 +1,177 @@
+{
+  "operators": [
+    {
+      "operator": {
+        "operator_id": 1,
+        "attributes": {
+          "default_product_id": 1,
+          "image": "/axis_2.png",
+          "name": "Axis",
+          "prefix": [
+            "085919",
+            "085918",
+            "085917",
+            "085916",
+            "085915",
+            "085914",
+            "085913",
+            "085912",
+            "085911",
+            "0859109",
+            "0859108",
+            "0859107",
+            "0859102",
+            "0859101",
+            "08598",
+            "0833",
+            "0838",
+            "0832",
+            "0836",
+            "0831"
+          ],
+          "description": "",
+          "__typename": "OperatorAttributes"
+        }
+      },
+      "__typename": "RechargeRenderProduct"
+    },
+    {
+      "operator": {
+        "operator_id": 2,
+        "attributes": {
+          "default_product_id": 1127,
+          "image": "/indosat.png",
+          "name": "Indosat",
+          "prefix": ["0814", "0858", "0815", "0816", "0855", "0857", "0856"],
+          "description": "",
+          "__typename": "OperatorAttributes"
+        },
+        "__typename": "RechargeOperator"
+      },
+      "__typename": "RechargeRenderProduct"
+    },
+    {
+      "operator": {
+        "operator_id": 7,
+        "attributes": {
+          "default_product_id": 41,
+          "image": "/smartfren_3.png",
+          "name": "Smartfren",
+          "prefix": [
+            "0889",
+            "0888",
+            "0887",
+            "0886",
+            "0885",
+            "0884",
+            "0883",
+            "0882",
+            "0881"
+          ],
+          "description": "",
+          "__typename": "OperatorAttributes"
+        },
+        "__typename": "RechargeOperator"
+      },
+      "__typename": "RechargeRenderProduct"
+    },
+    {
+      "operator": {
+        "operator_id": 12,
+        "attributes": {
+          "default_product_id": 2227,
+          "image": "/telkomsel.png",
+          "name": "Telkomsel",
+          "prefix": [
+            "0852",
+            "085151",
+            "0823",
+            "0853",
+            "08512",
+            "08511",
+            "08513",
+            "08514",
+            "08516",
+            "08517",
+            "08519",
+            "085152",
+            "085153",
+            "085158",
+            "085159",
+            "08510",
+            "0811",
+            "08518",
+            "0813",
+            "0812",
+            "0822",
+            "0821"
+          ],
+          "description": "",
+          "__typename": "OperatorAttributes"
+        },
+        "__typename": "RechargeOperator"
+      },
+      "__typename": "RechargeRenderProduct"
+    },
+    {
+      "operator": {
+        "operator_id": 2868,
+        "attributes": {
+          "default_product_id": 11028,
+          "image": "/byu.png",
+          "name": "Telkomsel - by.U",
+          "prefix": ["085155", "085157", "085156", "085154"],
+          "description": "",
+          "__typename": "OperatorAttributes"
+        },
+        "__typename": "RechargeOperator"
+      },
+      "__typename": "RechargeRenderProduct"
+    },
+    {
+      "operator": {
+        "operator_id": 4,
+        "attributes": {
+          "default_product_id": 1442,
+          "image": "/tri.png",
+          "name": "Tri",
+          "prefix": ["0894", "0899", "0898", "0897", "0896", "0895"],
+          "description": "",
+          "__typename": "OperatorAttributes"
+        },
+        "__typename": "RechargeOperator"
+      },
+      "__typename": "RechargeRenderProduct"
+    },
+    {
+      "operator": {
+        "operator_id": 5,
+        "attributes": {
+          "default_product_id": 1135,
+          "image": "xl.png",
+          "name": "XL",
+          "prefix": [
+            "08597",
+            "08596",
+            "08595",
+            "08594",
+            "08593",
+            "08592",
+            "08590",
+            "08599",
+            "0878",
+            "0877",
+            "0819",
+            "0818",
+            "0817",
+            "0879"
+          ],
+          "description": "",
+          "__typename": "OperatorAttributes"
+        },
+        "__typename": "RechargeOperator"
+      },
+      "__typename": "RechargeRenderProduct"
+    }
+  ]
+}
