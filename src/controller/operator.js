@@ -4,7 +4,6 @@ function Operator(req, res) {
   try {
     const data = operator.operators.map((item) => item.operator.attributes)
     const prefix = data.map((item) => item.prefix).filter((item) => item)
-    console.log(prefix, '')
     const findNumber = prefix.findIndex(
       (item) =>
         (item || []).filter((item) => req.params.id.includes(item)).length > 0
