@@ -18,7 +18,7 @@ app.use(function (req, res, next) {
 })
 
 app.use('/v1', Operator)
-app.use('/', () => {
+app.use('/', (req, res) => {
   res.send('PONG')
 })
 
