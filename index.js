@@ -1,6 +1,8 @@
 const express = require('express')
 const path = require('path')
 const Operator = require('./src/route')
+const fs = require('fs')
+const marked = require('marked')
 
 const app = express()
 const port = 3000
@@ -19,7 +21,9 @@ app.use(function (req, res, next) {
 
 app.use('/v1', Operator)
 app.use('/', (req, res) => {
-  res.send('PONG')
+  let filePath = __dirname + '/README.md'
+  let file = fs.readFileSync(filePath, 'utf8')
+  res.send(marked.parse(file.toString()))
 })
 
 if (require.main === module) {
