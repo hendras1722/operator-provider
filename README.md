@@ -47,14 +47,20 @@ GET /code-country
 **Response:**
 
 ```json
-[
-  {
-    "country": "Indonesia",
-    "code": "+62",
-    "flag": "https://..."
-  },
-  ...
-]
+{
+  "message": "success",
+  "data": {
+    "image": "https://flagcdn.com/{size}/{country-code}.png",
+    "listCountry": [
+      {
+        "name": "Afghanistan",
+        "code": "93",
+        "code_iso": "af / afg"
+      },
+      ...
+    ]
+  }
+}
 ```
 
 ---
